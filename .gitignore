@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------------
+# Dados de modelo e observacionais (permanecem no VLAB e no Drive)
+# ---------------------------------------------------------------------
+*.nc
+*.nc4
+*.grib
+*.grib2
+*.grb
+*.grb2
+*.hdf
+*.h5
+wrfout_*
+wrfrst_*
+wrfinput_*
+wrfbdy_*
+wrflowinp_*
+wrffdda_*
+met_em.*
+geo_em.*
+FILE:*
+GFS:*
+rsl.out.*
+rsl.error.*
+
+# ---------------------------------------------------------------------
+# Saidas geradas (figuras, tabelas e pacotes)
+# ---------------------------------------------------------------------
+outputs/
+06_OUTPUTS/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.zip
+*.tar.gz
+
+# ---------------------------------------------------------------------
+# Credenciais e documentos pessoais (nunca versionar)
+# ---------------------------------------------------------------------
+.env
+.env.*
+.cdsapirc
+.config_gpm_api.yaml
+*token*
+*credentials*
+rg/
+cpf/
+
+# ---------------------------------------------------------------------
+# Python, Jupyter e sistema
+# ---------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------------
+# Empacotamento e testes
+# ---------------------------------------------------------------------
+*.egg-info/
+build/
+dist/
+.pytest_cache/
